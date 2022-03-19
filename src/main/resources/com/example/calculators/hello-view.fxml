@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="420.0" style="-fx-background-color: #303236;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculators.Controller">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="420.0" style="-fx-background-color: #1a1b1c;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculators.Controller">
    <children>
       <Button layoutX="14.0" layoutY="400.0" mnemonicParsing="false" onAction="#abs" prefHeight="66.0" prefWidth="90.0" style="-fx-background-color: #42454a;" text="+/-" textFill="WHITE">
          <font>
@@ -27,7 +27,7 @@
             <Font size="25.0" />
          </font>
       </Button>
-      <Button layoutX="14.0" layoutY="105.0" mnemonicParsing="false" onAction="#clear" prefHeight="66.0" prefWidth="90.0" style="-fx-background-color: #42454a;" text="C" textFill="WHITE">
+      <Button layoutX="14.0" layoutY="105.0" mnemonicParsing="false" onAction="#clear" prefHeight="66.0" prefWidth="90.0" style="-fx-background-color: #383a3d;" text="C" textFill="WHITE">
          <font>
             <Font size="25.0" />
          </font>
@@ -52,12 +52,12 @@
             <Font size="25.0" />
          </font>
       </Button>
-      <Button layoutX="114.0" layoutY="105.0" mnemonicParsing="false" onAction="#squareRoot" prefHeight="66.0" prefWidth="90.0" style="-fx-background-color: #42454a;" text="√" textFill="WHITE">
+      <Button layoutX="114.0" layoutY="105.0" mnemonicParsing="false" onAction="#squareRoot" prefHeight="66.0" prefWidth="90.0" style="-fx-background-color: #383a3d;" text="√" textFill="WHITE">
          <font>
             <Font size="25.0" />
          </font>
       </Button>
-      <Button layoutX="214.0" layoutY="105.0" mnemonicParsing="false" onAction="#handleDivision" prefHeight="66.0" prefWidth="90.0" style="-fx-background-color: #42454a;" text="÷" textFill="WHITE">
+      <Button layoutX="214.0" layoutY="105.0" mnemonicParsing="false" onAction="#handleDivision" prefHeight="66.0" prefWidth="90.0" style="-fx-background-color: #383a3d;" text="÷" textFill="WHITE">
          <font>
             <Font size="25.0" />
          </font>
@@ -67,27 +67,27 @@
             <Font size="25.0" />
          </font>
       </Button>
-      <Button layoutX="313.0" layoutY="105.0" mnemonicParsing="false" onAction="#remove" prefHeight="66.0" prefWidth="90.0" style="-fx-background-color: #42454a;" text="←" textFill="WHITE">
+      <Button layoutX="313.0" layoutY="105.0" mnemonicParsing="false" onAction="#remove" prefHeight="66.0" prefWidth="90.0" style="-fx-background-color: #383a3d;" text="←" textFill="WHITE">
          <font>
             <Font size="25.0" />
          </font>
       </Button>
-      <Button layoutX="313.0" layoutY="181.0" mnemonicParsing="false" onAction="#handleMultiplication" prefHeight="66.0" prefWidth="90.0" style="-fx-background-color: #42454a;" text="x" textFill="WHITE">
+      <Button layoutX="313.0" layoutY="181.0" mnemonicParsing="false" onAction="#handleMultiplication" prefHeight="66.0" prefWidth="90.0" style="-fx-background-color: #383a3d;" text="x" textFill="WHITE">
          <font>
             <Font size="25.0" />
          </font>
       </Button>
-      <Button layoutX="214.0" layoutY="400.0" mnemonicParsing="false" onAction="#decimal" prefHeight="66.0" prefWidth="90.0" style="-fx-background-color: #42454a;" text="." textFill="WHITE">
+      <Button layoutX="214.0" layoutY="400.0" mnemonicParsing="false" onAction="#decimal" prefHeight="66.0" prefWidth="90.0" style="-fx-background-color: #383a3d;" text="." textFill="WHITE">
          <font>
             <Font size="25.0" />
          </font>
       </Button>
-      <Button layoutX="313.0" layoutY="400.0" mnemonicParsing="false" onAction="#handleEquals" prefHeight="66.0" prefWidth="90.0" style="-fx-background-color: #42454a;" text="=" textFill="WHITE">
+      <Button layoutX="313.0" layoutY="400.0" mnemonicParsing="false" onAction="#handleEquals" prefHeight="66.0" prefWidth="90.0" style="-fx-background-color: #abb5c4;" text="=" textFill="#050505">
          <font>
             <Font size="25.0" />
          </font>
       </Button>
-      <Button layoutX="313.0" layoutY="328.0" mnemonicParsing="false" onAction="#handleAddition" prefHeight="66.0" prefWidth="90.0" style="-fx-background-color: #42454a;" text="+" textFill="WHITE">
+      <Button layoutX="313.0" layoutY="328.0" mnemonicParsing="false" onAction="#handleAddition" prefHeight="66.0" prefWidth="90.0" style="-fx-background-color: #383a3d;" text="+" textFill="WHITE">
          <font>
             <Font size="25.0" />
          </font>
@@ -97,7 +97,7 @@
             <Font size="25.0" />
          </font>
       </Button>
-      <Button layoutX="313.0" layoutY="255.0" mnemonicParsing="false" onAction="#handleSubtraction" prefHeight="66.0" prefWidth="90.0" style="-fx-background-color: #42454a;" text="-" textFill="WHITE">
+      <Button layoutX="313.0" layoutY="255.0" mnemonicParsing="false" onAction="#handleSubtraction" prefHeight="66.0" prefWidth="90.0" style="-fx-background-color: #383a3d;" text="-" textFill="WHITE">
          <font>
             <Font size="25.0" />
          </font>
